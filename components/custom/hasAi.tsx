@@ -4,7 +4,7 @@ function InformationAlert() {
     return (
         <Callout type="info" emoji="ℹ️">
             Этот шаблон поддерживает работу с искусственным интеллектом. <a href="/ai"
-                                                                            className="nx-text-gray-800 nx-underline">Подробнее</a>.
+                                                                            className="nx-text-gray-800 nx-underline dark:nx-text-white">Подробнее</a>.
         </Callout>
     );
 }
